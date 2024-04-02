@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>create_causes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css'  href='styles/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src='Script/script.js'></script>
+</head>
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light fs-4 mx-3" href="index.html">Awaaz</a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-success "></span>
+      </button>
+      <div class="collapse navbar-collapse text-success" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light fs-4 mx-3" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-4 mx-3" href="causes.html">Causes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mx-3 fs-4" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mx-3 fs-4" href="Admin.html">Admin</a>
+          </li>
+         
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 px-2" type="search" placeholder="Search" 
+          aria-label="Search">
+          <button class="btn btn-success py-3" >Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class=" container rounded bg-success">
+
+    <h1 class="text-center text-light mt-3  ">Create Cause</h1>
+   <form class="bg-transparent rounded mb-5 mt-3  login-form">
+    <div class="mb-3">
+    <h3 class="text-light mx-5 ">Cause name</h3>
+    <input type="text" placeholder="cause name">
+    </div>
+    <div class="mb-3">
+        <h3 class="text-light mx-5">Cause description</h3>
+        
+        <textarea  rows="5" cols="10" 
+          placeholder="cause description"></textarea>
+       
+    </div>
+    <div class="mb-3">
+      <h3 class="text-light mx-5">Choose the category</h3>
+      <div class="dropdown">
+        <select class="mx-5" >
+          <option></option>
+          <option >Raicism</option>
+          <option >Creative tax avoidance</option>
+          <option value="saab">Unfair employment practices</option>
+          <option value="opel">Disregard of environmental impact and other unethical  
+            business and political practices.</option>
+          
+        </select>
+      </div>
+     
+  </div>
+   <div class="mb-3">
+    <h3 class="text-light mx-5"> Upload image</h3>
+    <input type="file" >
+   </div>
+
+    <button class="btn btn-dark btn-lg mx-5 mb-3 " type="submit">Create Cause</button>
+
+   </form>
+
+  </div>
+
+<!---footer-->
+ 
+ <div class="card text-center bg-dark">
+  
+  <div class="card-body">
+    <h5 class="card-title text-light fs-3">Raise your voice</h5>
+    <p class="card-text text-light fs-3">Support your society to improve</p>
+    <a href="causes.html" class="btn btn-success">View causes</a>
+  </div>
+  <div class="card-footer text-success fs-2">
+    &copy;2023 Awaaz
+  </div>
+</div>
+
+<!---jquery-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous"></script>
+
+
+  </body>
+  </html>
